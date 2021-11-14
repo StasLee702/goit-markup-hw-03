@@ -338,11 +338,11 @@ img {
     padding: 6px 22px;
     display: inline-block;
     border: transparent;
-    margin-bottom: 50px;
 }
 
 .button-proj{
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .button-proj .button{
@@ -399,10 +399,11 @@ img {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--brand-color);
-    margin-top: 0;
+    /* margin-top: 0;
     margin-bottom: 4px;
     margin-left: 24px;
-    margin-right: 24px;
+    margin-right: 24px; */
+    margin: auto;
 }
 
 .project-text {
@@ -410,8 +411,20 @@ img {
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--brand-color-text);
-    margin-top: 0;
+    /* margin-top: 0;
     margin-bottom: 20px;
     margin-left: 24px;
-    margin-right: 24px;
+    margin-right: 24px; */
+    margin: auto;
+}
+
+.project-div{
+    padding-top: 0;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.projec-link{
+    display: block;
 }
