@@ -132,7 +132,8 @@ img {
 
 .container .button {
     font-family: inherit;
-    color: var(--brand-color);
+    background-color: var(--button-link-main-color);
+    color: var(--button-link-text-color);
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
@@ -194,6 +195,7 @@ img {
 
 .section-what-we-do{
     padding-top: 0;
+    padding-bottom: 94px;
 }
 
 .what-we-do-team {
@@ -322,7 +324,7 @@ img {
     display: none;
 }
 
-.button-proj .button {
+.button-item .button-list {
     font-family: inherit;
     color: var(--brand-color);
     cursor: pointer;
@@ -340,23 +342,23 @@ img {
     border: transparent;
 }
 
+.button-list:hover,
+.button-list:focus {
+    background-color: var(--button-link-main-color);
+    color: var(--button-link-text-color);
+}
+
 .button-proj{
     justify-content: center;
     margin-bottom: 50px;
 }
 
-.button-proj .button{
+.button-proj .button-item{
     margin-right: 8px;
 }
 
 .button-proj .button-item:nth-child(n+5) {
     margin-right: 0px;
-}
-
-.button:hover,
-.button:focus {
-    background-color: var(--button-link-main-color);
-    color: var(--button-link-text-color);
 }
 
 .list-project{
@@ -387,10 +389,6 @@ img {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
-}
-
-.img-project{
-    margin-bottom: 20px;
 }
 
 .project {
